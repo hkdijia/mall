@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * 会员登录注册管理Controller   
+ * 会员登录注册管理Controller
  *
  */
 @Controller

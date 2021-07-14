@@ -8,6 +8,6 @@ import org.springframework.context.annotation.Configuration;
  *
  */
 @Configuration
-@MapperScan("com.gotkx.mall.mbg.mapper")
+@MapperScan({"com.gotkx.mall.mbg.mapper","com.gotkx.mall.dao"})
 public class MyBatisConfig {
 }
