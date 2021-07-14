@@ -1,6 +1,5 @@
 package com.gotkx.mall.service.impl;
 
-
 import com.gotkx.mall.common.utils.JwtTokenUtil;
 import com.gotkx.mall.dao.UmsAdminRoleRelationDao;
 import com.gotkx.mall.mbg.mapper.UmsAdminMapper;
@@ -31,7 +30,9 @@ import java.util.List;
  */
 @Service
 public class UmsAdminServiceImpl implements UmsAdminService {
+
     private static final Logger LOGGER = LoggerFactory.getLogger(UmsAdminServiceImpl.class);
+
     @Autowired
     private UserDetailsService userDetailsService;
     @Autowired
